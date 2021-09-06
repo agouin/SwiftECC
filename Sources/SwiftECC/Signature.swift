@@ -6,7 +6,7 @@
 //
 
 import ASN1
-import BigInt
+import BigIntRenamed
 
 ///
 /// ECSignature instances contain an ECDSA signature which consists of two byte arrays named *r* and *s*

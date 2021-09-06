@@ -6,7 +6,7 @@
 //
 
 import ASN1
-import BigInt
+import BigIntRenamed
 
 class BP320r1: DomainP {
     

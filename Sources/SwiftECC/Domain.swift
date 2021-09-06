@@ -6,7 +6,7 @@
 //
 
 import ASN1
-import BigInt
+import BigIntRenamed
 
 ///
 /// An 8-bit unsigned integer
