@@ -5,7 +5,7 @@
 //  Created by Leif Ibsen on 03/02/2020.
 //
 
-import BigInt
+import BigIntRenamed
 
 ///
 /// AES block ciphers available for encryption

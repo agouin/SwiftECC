@@ -6,7 +6,7 @@
 //
 
 import XCTest
-import BigInt
+import BigIntRenamed
 import ASN1
 
 class FuzzTest: XCTestCase {

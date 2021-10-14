@@ -6,7 +6,7 @@
 //
 
 import XCTest
-import BigInt
+import BigIntRenamed
 
 class VerifyTest: XCTestCase {
 

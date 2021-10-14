@@ -7,7 +7,7 @@
 //
 
 import ASN1
-import BigInt
+import BigIntRenamed
 
 class EC283k1: Domain2 {
     

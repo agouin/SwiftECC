@@ -6,7 +6,7 @@
 //
 
 import XCTest
-import BigInt
+import BigIntRenamed
 
 // Test the twisted brainpool domains
 

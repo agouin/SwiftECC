@@ -7,7 +7,7 @@
 //
 
 import ASN1
-import BigInt
+import BigIntRenamed
 
 class EC521r1: DomainP {
     

@@ -162,7 +162,7 @@ You can create your own domains as illustrated by the two examples below.
 This is example 3.5 from [GUIDE]. It shows how to make your own prime characteristic domain.
 
     import SwiftECC
-    import BigInt
+    import BigIntRenamed
     
     // Create the domain
     let domain = try Domain.instance(name: "EC29", p: BInt(29), a: BInt(4), b: BInt(20), gx: BInt(1), gy: BInt(5), order: BInt(37), cofactor: 1)
@@ -197,7 +197,7 @@ giving<br/>
 This is example 3.6 from [GUIDE]. It shows how to make your own characteristic 2 domain.
 
     import SwiftECC
-    import BigInt
+    import BigIntRenamed
 	
     // Reduction polynomial for x^4 + x + 1    
     let rp = RP(4, 1)
@@ -333,11 +333,11 @@ was measured on a MacBook Pro 2018, 2,2 GHz 6-Core Intel Core i7. The results ar
 
 <h2><b>Dependencies</b></h2>
 
-The SwiftECC package depends on the ASN1 and BigInt packages
+The SwiftECC package depends on the ASN1 and BigIntRenamed packages
 
     dependencies: [
-        .package(url: "https://github.com/leif-ibsen/ASN1", from: "2.0.0"),
-        .package(url: "https://github.com/leif-ibsen/BigInt", from: "1.2.6"),
+        .package(url: "https://github.com/agouin/ASN1", .branch("swift_5_3")),
+        .package(url: "https://github.com/agouin/BigIntRenamed", .branch("swift_5_3")),
     ],
 
 <h2><b>References</b></h2>
